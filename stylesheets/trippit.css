@@ -1,0 +1,71 @@
+@import url(https://fonts.googleapis.com/css?family=Hind:400,300,500,600,700);
+@import url(https://fonts.googleapis.com/css?family=Merriweather:400,700,300,300italic,400italic,700italic);
+/* line 7, ../sass/trippit.scss */
+html .vert-menu-trippit {
+  font-family: 'Hind', sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+}
+/* line 18, ../sass/trippit.scss */
+html .vert-menu-trippit #container .title {
+  left: 12.5%;
+  padding-top: 50px;
+}
+/* line 22, ../sass/trippit.scss */
+html .vert-menu-trippit #container .title img {
+  width: 100%;
+  height: 100%;
+}
+/* line 32, ../sass/trippit.scss */
+html .vert-menu-trippit .links ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+/* line 37, ../sass/trippit.scss */
+html .vert-menu-trippit .links ul li {
+  text-align: center;
+}
+/* line 40, ../sass/trippit.scss */
+html .vert-menu-trippit .links ul li a {
+  font-weight: 300;
+  font-size: 16px;
+  cursor: pointer;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+/* line 54, ../sass/trippit.scss */
+html .section {
+  height: 100vh;
+}
+/* line 57, ../sass/trippit.scss */
+html .section .home-content-trippit .project-icon {
+  left: 30%;
+}
+/* line 59, ../sass/trippit.scss */
+html .section .home-content-trippit .project-icon img {
+  height: 100%;
+  width: 100%;
+}
+/* line 66, ../sass/trippit.scss */
+html .section .intro-content {
+  font-family: 'Merriweather', serif;
+  font-size: 20px;
+  left: 15.6%;
+  margin-top: -15px;
+}
+/* line 71, ../sass/trippit.scss */
+html .section .intro-content p {
+  line-height: 30px;
+}
+/* line 79, ../sass/trippit.scss */
+html #main-content {
+  font-family: 'Merriweather', serif;
+  font-size: 20px;
+  left: 15.6%;
+  margin-top: -15px;
+}
+/* line 84, ../sass/trippit.scss */
+html #main-content p {
+  line-height: 30px;
+}

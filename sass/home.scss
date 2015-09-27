@@ -1,16 +1,22 @@
 @import url(https://fonts.googleapis.com/css?family=Hind:400,300,500,600,700);
+html {
 
+	
 .vert-menu {
 	
 	font-family: 'Hind', sans-serif;
 	font-size:30px;
 	font-weight: 700;
-	
+	left: 37.5%;
+
+
 
 	#container {
+
 		.title {
 			left:12.5%;
-			padding-top: 100px;
+			padding-top: 50px;
+			
 			img {
 				width:100%;
 				height:100%;
@@ -31,10 +37,8 @@
 				text-align: center;
 			
 				a {
-					
 					font-weight: 300;
-					font-size: 24px;	
-					
+					font-size: 24px;		
 					cursor: pointer;
 					padding-top:6px;
 					padding-bottom: 6px;
@@ -47,10 +51,13 @@
 }
 
 .home-content {
-	.title {
-			background: url(../images/scott.gif) no-repeat center center;
-			
-			height:90vh;
+	.project-icon {
+			left:37.5%;
+		img {
+			height:100%;
 			width:100%;
+		}
 	}
+}
+
 }
