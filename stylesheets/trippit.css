@@ -1,5 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Hind:400,300,500,600,700);
-@import url(https://fonts.googleapis.com/css?family=Merriweather:400,700,300,300italic,400italic,700italic);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,700,700italic);
 /* line 7, ../sass/trippit.scss */
 html .vert-menu-trippit {
   font-family: 'Hind', sans-serif;
@@ -49,9 +49,9 @@ html .section .home-content-trippit .project-icon img {
 }
 /* line 66, ../sass/trippit.scss */
 html .section .intro-content {
-  font-family: 'Merriweather', serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 20px;
-  left: 15.6%;
+  left: 15%;
   margin-top: -15px;
 }
 /* line 71, ../sass/trippit.scss */
@@ -59,13 +59,98 @@ html .section .intro-content p {
   line-height: 30px;
 }
 /* line 79, ../sass/trippit.scss */
+html .uiux-bar {
+  height: 100px;
+  background-color: #fff;
+  font-size: 30px;
+  text-align: center;
+  left: 21.875%;
+  padding-top: 50px;
+}
+/* line 87, ../sass/trippit.scss */
 html #main-content {
-  font-family: 'Merriweather', serif;
-  font-size: 20px;
-  left: 15.6%;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  left: 21.875%;
   margin-top: -15px;
 }
-/* line 84, ../sass/trippit.scss */
-html #main-content p {
-  line-height: 30px;
+/* line 93, ../sass/trippit.scss */
+html #main-content #d1-bar {
+  height: 100px;
+  background-color: #fff;
+  font-size: 20px;
+  text-align: center;
+  left: 17.85%;
+  margin-top: 30px;
+}
+/* line 102, ../sass/trippit.scss */
+html #main-content #design-one {
+  margin-bottom: 30px;
+}
+/* line 105, ../sass/trippit.scss */
+html #main-content #design-one img {
+  height: 600px;
+  position: relative;
+}
+/* line 113, ../sass/trippit.scss */
+html #main-content #d2-bar {
+  height: 100px;
+  background-color: #fff;
+  font-size: 20px;
+  text-align: center;
+  left: 17.85%;
+  margin-top: 30px;
+}
+/* line 122, ../sass/trippit.scss */
+html #main-content #design-two {
+  margin-bottom: 30px;
+}
+/* line 125, ../sass/trippit.scss */
+html #main-content #design-two img {
+  width: 100%;
+  position: relative;
+}
+/* line 133, ../sass/trippit.scss */
+html #main-content .profile-bar {
+  height: 100px;
+  background-color: #fff;
+  font-size: 30px;
+  text-align: center;
+  lleft: 17.85%;
+  padding-top: 50px;
+}
+/* line 144, ../sass/trippit.scss */
+html #main-content .trip-bar {
+  height: 100px;
+  background-color: #fff;
+  font-size: 30px;
+  text-align: center;
+  left: 17.85%;
+  padding-top: 50px;
+}
+/* line 153, ../sass/trippit.scss */
+html #main-content .logo-bar {
+  height: 100px;
+  background-color: #fff;
+  font-size: 30px;
+  text-align: center;
+  left: 17.85%;
+  padding-top: 50px;
+}
+/* line 163, ../sass/trippit.scss */
+html #main-content #profile-img img {
+  height: 500px;
+}
+/* line 169, ../sass/trippit.scss */
+html #main-content #trip-img img {
+  height: 500px;
+}
+/* line 173, ../sass/trippit.scss */
+html #main-content p, html #main-content ul {
+  line-height: 24px;
+}
+/* line 179, ../sass/trippit.scss */
+html #main-content p br, html #main-content ul br {
+  display: block;
+  margin: 10px 0;
 }

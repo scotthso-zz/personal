@@ -1,9 +1,9 @@
 @import url(https://fonts.googleapis.com/css?family=Hind:400,300,500,600,700);
-@import url(https://fonts.googleapis.com/css?family=Merriweather:400,700,300,300italic,400italic,700italic);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,700,700italic);
 
 html {
 
-	
+
 .vert-menu-trippit {
 	
 	font-family: 'Hind', sans-serif;
@@ -64,9 +64,9 @@ html {
 	}
 
 	.intro-content {
-		font-family: 'Merriweather', serif;
+		font-family: 'Open Sans', sans-serif;
 		font-size: 20px;
-		left:15.6%;
+		left:15%;
 		margin-top: -15px;
 			p{
 				line-height: 30px;
@@ -76,13 +76,112 @@ html {
 
 }
 
-#main-content {
-	font-family: 'Merriweather', serif;
-		font-size: 20px;
-		left:15.6%;
-		margin-top: -15px;
-			p{
-				line-height: 30px;
-			}
+.uiux-bar {
+	height:100px;
+	background-color: #fff;
+	font-size: 30px;
+	text-align: center;
+	left:21.875%;
+	padding-top:50px;
 }
+#main-content {
+	font-family: 'Open Sans', sans-serif;
+		font-size: 18px;
+		left:21.875%;
+		margin-top: -15px;
+			
+			#d1-bar {
+				height:100px;
+				background-color: #fff;
+				font-size: 20px;
+				text-align: center;
+				left:17.85%;
+				margin-top: 30px;
+				
+			}
+			#design-one{
+
+				margin-bottom: 30px;
+				img {
+					height:600px;
+					position: relative;
+					
+
+				}
+			}
+
+			#d2-bar {
+				height:100px;
+				background-color: #fff;
+				font-size: 20px;
+				text-align: center;
+				left:17.85%;
+				margin-top: 30px;
+				
+			}
+			#design-two{
+
+				margin-bottom: 30px;
+				img {
+					width:100%;
+					position: relative;
+					
+
+				}
+			}
+
+			.profile-bar {
+				height:100px;
+				background-color: #fff;
+				font-size: 30px;
+				text-align: center;
+				lleft:17.85%;
+				padding-top:50px;
+			}
+
+			
+
+			.trip-bar {
+				height:100px;
+				background-color: #fff;
+				font-size: 30px;
+				text-align: center;
+				left:17.85%;
+				padding-top:50px;
+			}
+
+			.logo-bar {
+				height:100px;
+				background-color: #fff;
+				font-size: 30px;
+				text-align: center;
+				left:17.85%;
+				padding-top:50px;
+			}
+
+			#profile-img {
+				img {
+				height:500px;
+				}
+			}
+
+			#trip-img {
+				img {
+				height:500px;
+				}
+			}
+			p,ul{
+
+				line-height: 24px;
+
+
+
+				br {
+			display:block;
+			margin: 10px 0;		
+				}
+
+
+			}
+	}
 }
