@@ -11,15 +11,15 @@
         <div class ="vert-menu-trippit xlg-2 lg-2 sm-16">
             <div id = "container">
               <div class = "title xlg-12 lg-12 sm-16">
-                  <a href = "/index"><img src="images/logo-01.svg"/></a>
+                  <a href = "/index.html"><img src="images/logo-01.svg"/></a>
               </div>
 
-              <div class = "links xlg-16 lg-16">
+              <div class = "links xlg-16 lg-16 sm-16">
                 <ul>
                   <li><a href = "#uiux-bar">UI/UX</a></li>
-                  <li><a href = "#uiux-bar">Profile UI/UX</a></li>
-                  <li><a href = "#uiux-bar">Trip Page UI/UX</a></li>
-                  <li><a href = "#uiux-bar">Logo</a></li>
+                  <li><a href = "#profile-bar">Profile UI/UX</a></li>
+                  <li><a href = "#trip-bar">Trip Page UI/UX</a></li>
+                
                 </ul>
               </div>
             </div>
@@ -34,7 +34,7 @@
 
         </div>
 
-        <div class = "intro-content xlg-9 lg-9">
+        <div class = "intro-content xlg-9 lg-9 xmd-9 md-9 xsm-16 sm-16">
           <p>trippit has been an idea I had for the longest time. An idea that came from an urge to share my experiences with others and from my love for travel. After getting tired of waiting I finally got the project going with help from my friends. </p>
 
           <p>I took the branding into my own hands with logos, UI/UX and Front-End.</p>
@@ -43,8 +43,8 @@
         </div>
       </div>
 
-        <div id ="uiux-bar" class="uiux-bar xlg-9 lg-9">UI/UX</div>
-        <div id = "main-content" class="xlg-9 lg-9">
+        <div id ="uiux-bar" class="uiux-bar xlg-9 lg-9 xmd-9 md-9 xsm-16 sm-16">UI/UX</div>
+        <div id = "main-content" class="xlg-9 lg-9 xmd-9 md-9 xsm-16 sm-16">
           <p>trippit is a project that I thought would just be a side project but as we kept on working on it, our ideas for it kept on growing and so did the work. But that&#39;s the best part, being able to work on something that you&#39;re passionate about.
           </p>  
           <p>
@@ -79,7 +79,7 @@
             <li>Authentic</li>
           </ul>
 
-          <div id ="d1-bar" class="uiux-bar xlg-9 lg-9">DESIGN #1 DESIGN FLOW</div>
+          <div id ="d1-bar" class="uiux-bar xlg-9 lg-9 xmd-9 md-9 xsm-16 sm-16">DESIGN #1 DESIGN FLOW</div>
           <div id = "design-one">
             <img src ="images/trippit_design_1.png">
           </div>
@@ -106,23 +106,23 @@
 
           <p>However, there was still something about the design that really bothered me. I felt like there was too much information being presented to us that wasn&#39;t visually appealing at the same time. When someone first visits the page, they&#39;re just hit hard with a ton of information with the amount of text and colours. Also, there was a lot of unused page estate on the left and right. </p>
 
-          <div id ="d2-bar" class="uiux-bar xlg-9 lg-9">Therefore I proposed DESIGN #2</div>
+          <div id ="d2-bar" class="uiux-bar xlg-9 lg-9 xmd-9 md-9 xsm-16 sm-16">Therefore I proposed DESIGN #2</div>
           <div id = "design-two">
             <img src ="/images/trippit_design_2.png">
           </div>
 
           <p>The 2nd design would be the best and most efficient design. In 0.5 seconds visitors will have a clear grapse on what's going on and where to click.</p>
 
-          <p>The visitor's eye is first directed to the featured bar at the top enticing them to click into it before moving down the page and seeing the rest of the pages.</p>
+          <p>The visitor&#39;s eye is first directed to the featured bar at the top enticing them to click into it before moving down the page and seeing the rest of the pages.</p>
 
-          <p> In design 2, I created something I call “Trip Cards,” which helps displays the trips in an appealing way. But you might be thinking that now there is too little information with just the trip name, author and image on each card.</p>
+          <p> In design 2, I created something I call &quot;Trip Cards,&quot; which helps displays the trips in an appealing way. But you might be thinking that now there is too little information with just the trip name, author and image on each card.</p>
 
           <p>To fix this, when the user hovers over a card, then the details pop up about the trip.  This increases user interaction with the site, without it being annoying. Once the trip name catches the interest of the user, the user would want to know more anyways, so they hover over it and see the details before they go into the trip.</p>
 
           <p>
-            The filter options were moved to below featured because we don't want the user to be introduced to filters before checking out what a trippit trip is like. Once they see the featured they can then slowly sift through what trips they want to see.</p>
+            The filter options were moved to below featured because we don&#39;t want the user to be introduced to filters before checking out what a trippit trip is like. Once they see the featured they can then slowly sift through what trips they want to see.</p>
 
-      <div class ="profile-bar" class="uiux-bar xlg-9 lg-9">Profile UI/UX</div>
+      <div id ="profile-bar" class="uiux-bar xlg-9 lg-9 xmd-9 md-9 xsm-16 sm-16">Profile UI/UX</div>
 
         <p>Since trippit was built to be a community, the profile page presentation was important. Users profiles had to be simple to read and informative of what the traveler was about.</p>
     
@@ -132,9 +132,9 @@
 
        <p>I kept the trip feed to the be the same as there was no reason for it to be different and I wanted consistency. To allow for more profile uniqueness, the user has the option to set their own cover photo. And the bottom section allows for a bio and social media links to allow for a more intimate connection with their followers or fans.</p>
 
-      <div class ="trip-bar" class="uiux-bar xlg-9 lg-9">Trip page UI/UX</div>
+      <div id ="trip-bar" class="uiux-bar xlg-9 lg-9 xmd-9 md-9 xsm-16 sm-16">Trip page UI/UX</div>
 
-      <p>The trip page is the most important part of the site. It’s what the site revolves around, so I wanted it to have a nice flow and easy to read. A visitor should be able to read the trip with minimal amount of clicks to achieve a good reading experience.</p>
+      <p>The trip page is the most important part of the site. It&#39;s what the site revolves around, so I wanted it to have a nice flow and easy to read. A visitor should be able to read the trip with minimal amount of clicks to achieve a good reading experience.</p>
 
        <div id = "trip-img">
             <img src ="images/trip.png">
@@ -142,7 +142,7 @@
 <p>
 The beginning gives a summary and the basic details of the trip. Along with a map, of where the user went to, this already gives the reader a good context of the trip.</p>
 
-<p>Each day is separated into a card to allow for easier differentiation so that it’s just not a big clump of text. </p>
+<p>Each day is separated into a card to allow for easier differentiation so that it&#39;s just not a big clump of text. </p>
 
 <p>Since the main context of the trip is the places and things that the user did. So I designed the trip cards so that the activities stood out and were easy to read with the implementation of activity cards. I know we wanted minimal clicks, but at the same time too much text makes for a bad experience. So therefore sepearting each activity into their own cards makes for a better design choice.
 </p>
@@ -154,4 +154,14 @@ The beginning gives a summary and the basic details of the trip. Along with a ma
           
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
      <script src="scripts/home.js"></script>
+     <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-68388127-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
 </html>

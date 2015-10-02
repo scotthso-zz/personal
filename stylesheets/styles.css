@@ -48,33 +48,39 @@ html .home-content .project-icon img {
   width: 100%;
 }
 
-/* line 7, ../sass/trippit.scss */
+/* line 8, ../sass/trippit.scss */
 html .vert-menu-trippit {
   font-family: 'Hind', sans-serif;
   font-size: 30px;
   font-weight: 700;
 }
-/* line 18, ../sass/trippit.scss */
+/* line 19, ../sass/trippit.scss */
 html .vert-menu-trippit #container .title {
   left: 12.5%;
   padding-top: 50px;
 }
-/* line 22, ../sass/trippit.scss */
+@media only screen and (max-device-width: 500px) {
+  /* line 19, ../sass/trippit.scss */
+  html .vert-menu-trippit #container .title {
+    left: 0%;
+  }
+}
+/* line 29, ../sass/trippit.scss */
 html .vert-menu-trippit #container .title img {
   width: 100%;
   height: 100%;
 }
-/* line 32, ../sass/trippit.scss */
+/* line 39, ../sass/trippit.scss */
 html .vert-menu-trippit .links ul {
   list-style: none;
   margin: 0;
   padding: 0;
 }
-/* line 37, ../sass/trippit.scss */
+/* line 44, ../sass/trippit.scss */
 html .vert-menu-trippit .links ul li {
   text-align: center;
 }
-/* line 40, ../sass/trippit.scss */
+/* line 47, ../sass/trippit.scss */
 html .vert-menu-trippit .links ul li a {
   font-weight: 300;
   font-size: 16px;
@@ -82,47 +88,59 @@ html .vert-menu-trippit .links ul li a {
   padding-top: 6px;
   padding-bottom: 6px;
 }
-/* line 54, ../sass/trippit.scss */
+/* line 61, ../sass/trippit.scss */
 html .section {
   height: 100vh;
 }
-/* line 57, ../sass/trippit.scss */
+/* line 64, ../sass/trippit.scss */
 html .section .home-content-trippit .project-icon {
   left: 30%;
 }
-/* line 59, ../sass/trippit.scss */
+@media only screen and (max-device-width: 500px) {
+  /* line 64, ../sass/trippit.scss */
+  html .section .home-content-trippit .project-icon {
+    left: 0%;
+  }
+}
+/* line 69, ../sass/trippit.scss */
 html .section .home-content-trippit .project-icon img {
   height: 100%;
   width: 100%;
 }
-/* line 66, ../sass/trippit.scss */
+/* line 76, ../sass/trippit.scss */
 html .section .intro-content {
   font-family: 'Open Sans', sans-serif;
   font-size: 20px;
   left: 15%;
   margin-top: -15px;
 }
-/* line 71, ../sass/trippit.scss */
+@media only screen and (max-device-width: 500px) {
+  /* line 76, ../sass/trippit.scss */
+  html .section .intro-content {
+    left: 0%;
+  }
+}
+/* line 84, ../sass/trippit.scss */
 html .section .intro-content p {
   line-height: 30px;
 }
-/* line 79, ../sass/trippit.scss */
+/* line 92, ../sass/trippit.scss */
 html .uiux-bar {
   height: 100px;
   background-color: #fff;
   font-size: 30px;
   text-align: center;
-  left: 21.875%;
+  width: 100%;
   padding-top: 50px;
 }
-/* line 87, ../sass/trippit.scss */
+/* line 100, ../sass/trippit.scss */
 html #main-content {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px;
   left: 21.875%;
   margin-top: -15px;
 }
-/* line 93, ../sass/trippit.scss */
+/* line 106, ../sass/trippit.scss */
 html #main-content #d1-bar {
   height: 100px;
   background-color: #fff;
@@ -131,16 +149,16 @@ html #main-content #d1-bar {
   left: 17.85%;
   margin-top: 30px;
 }
-/* line 102, ../sass/trippit.scss */
+/* line 115, ../sass/trippit.scss */
 html #main-content #design-one {
   margin-bottom: 30px;
 }
-/* line 105, ../sass/trippit.scss */
+/* line 118, ../sass/trippit.scss */
 html #main-content #design-one img {
   height: 600px;
   position: relative;
 }
-/* line 113, ../sass/trippit.scss */
+/* line 126, ../sass/trippit.scss */
 html #main-content #d2-bar {
   height: 100px;
   background-color: #fff;
@@ -149,16 +167,16 @@ html #main-content #d2-bar {
   left: 17.85%;
   margin-top: 30px;
 }
-/* line 122, ../sass/trippit.scss */
+/* line 135, ../sass/trippit.scss */
 html #main-content #design-two {
   margin-bottom: 30px;
 }
-/* line 125, ../sass/trippit.scss */
+/* line 138, ../sass/trippit.scss */
 html #main-content #design-two img {
   width: 100%;
   position: relative;
 }
-/* line 133, ../sass/trippit.scss */
+/* line 146, ../sass/trippit.scss */
 html #main-content .profile-bar {
   height: 100px;
   background-color: #fff;
@@ -167,7 +185,7 @@ html #main-content .profile-bar {
   lleft: 17.85%;
   padding-top: 50px;
 }
-/* line 144, ../sass/trippit.scss */
+/* line 157, ../sass/trippit.scss */
 html #main-content .trip-bar {
   height: 100px;
   background-color: #fff;
@@ -176,7 +194,7 @@ html #main-content .trip-bar {
   left: 17.85%;
   padding-top: 50px;
 }
-/* line 153, ../sass/trippit.scss */
+/* line 166, ../sass/trippit.scss */
 html #main-content .logo-bar {
   height: 100px;
   background-color: #fff;
@@ -185,22 +203,42 @@ html #main-content .logo-bar {
   left: 17.85%;
   padding-top: 50px;
 }
-/* line 163, ../sass/trippit.scss */
+/* line 176, ../sass/trippit.scss */
 html #main-content #profile-img img {
   height: 500px;
 }
-/* line 169, ../sass/trippit.scss */
+/* line 182, ../sass/trippit.scss */
 html #main-content #trip-img img {
-  height: 500px;
+  height: 700px;
+  float: left;
+  margin-right: 20px;
 }
-/* line 173, ../sass/trippit.scss */
+/* line 188, ../sass/trippit.scss */
 html #main-content p, html #main-content ul {
   line-height: 24px;
 }
-/* line 179, ../sass/trippit.scss */
+/* line 194, ../sass/trippit.scss */
 html #main-content p br, html #main-content ul br {
   display: block;
   margin: 10px 0;
+}
+@media only screen and (max-device-width: 500px) {
+  /* line 205, ../sass/trippit.scss */
+  html .project-icon, html #d2-bar {
+    left: 2%;
+  }
+  /* line 209, ../sass/trippit.scss */
+  html .uiux-bar {
+    left: 2%;
+  }
+  /* line 212, ../sass/trippit.scss */
+  html #main-content {
+    left: 2%;
+  }
+  /* line 215, ../sass/trippit.scss */
+  html .links {
+    display: none;
+  }
 }
 
 /******screen sizes******/

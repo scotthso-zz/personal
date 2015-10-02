@@ -4,6 +4,7 @@
 html {
 
 
+
 .vert-menu-trippit {
 	
 	font-family: 'Hind', sans-serif;
@@ -18,6 +19,12 @@ html {
 		.title {
 			left:12.5%;
 			padding-top: 50px;
+
+			@media only screen and (max-device-width : 500px) {
+				
+					left:0%;
+				
+			}
 			
 			img {
 				width:100%;
@@ -56,6 +63,9 @@ html {
 	.home-content-trippit {
 		.project-icon {
 				left:30%;
+				@media only screen and (max-device-width : 500px) {
+					left:0%;
+				}
 			img {
 				height:100%;
 				width:100%;
@@ -68,6 +78,9 @@ html {
 		font-size: 20px;
 		left:15%;
 		margin-top: -15px;
+		@media only screen and (max-device-width : 500px) {
+			left:0%;
+		}
 			p{
 				line-height: 30px;
 			}
@@ -81,7 +94,7 @@ html {
 	background-color: #fff;
 	font-size: 30px;
 	text-align: center;
-	left:21.875%;
+	width:100%;
 	padding-top:50px;
 }
 #main-content {
@@ -167,7 +180,9 @@ html {
 
 			#trip-img {
 				img {
-				height:500px;
+				    height: 700px;
+				    float: left;
+				    margin-right: 20px;
 				}
 			}
 			p,ul{
@@ -184,4 +199,21 @@ html {
 
 			}
 	}
+
+	@media only screen and (max-device-width : 500px) {
+
+	.project-icon, #d2-bar{
+		left:2%;
+	}
+
+	.uiux-bar {
+		left:2%;
+	}
+	#main-content {
+		left:2%;
+	}
+	.links {
+		display:none;
+	}
+}
 }
