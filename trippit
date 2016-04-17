@@ -8,34 +8,34 @@
     
     <body>
     
-        <div class ="vert-menu-trippit xlg-2 lg-2 sm-16">
-            <div id = "container">
-              <div class = "title xlg-12 lg-12 sm-16">
-                  <a href = "/index.html"><img src="images/logo-01.svg"/></a>
-              </div>
+       
+        <div class = "section lg-16">
+          <div class ="home-content-trippit xlg-16 lg-16">
 
-              <div class = "links xlg-16 lg-16 sm-16">
-                <ul>
-                  <li><a href = "#uiux-bar">UI/UX</a></li>
-                  <li><a href = "#profile-bar">Profile UI/UX</a></li>
-                  <li><a href = "#trip-bar">Trip Page UI/UX</a></li>
-                
-                </ul>
+            <div class = "p-bord xlg-9 lg-9">
+              <div class = "project-icon xlg-2 lg-2">
+                  <a href = "/trippit"><img src="images/trippit_cover.png"></a>
               </div>
             </div>
-        </div>
+              <div class = "project-title xlg-16 lg-16">
+              <h1>trippit</h1>
+              </div>
+           
 
-        <div class = "section lg-14">
-        <div class ="home-content-trippit xlg-14 lg-16">
-            <div class = "project-icon xlg-4 lg-4">
-                <a href = "/trippit.html"><img src="images/trippit_cover.png"></a>
-               
+            <div class = "details xlg-16 lg-16">
+              <span><b>Languages</b> HTML, SASS, JQuery, PHP, Ajax</span>
+              <br>
+              <span><b>Role</b> Co-Founder, Front-End Developer, UI/UX Design</span>
+              <br>
             </div>
-
-        </div>
+        
+          </div>
 
         <div class = "intro-content xlg-9 lg-9 xmd-9 md-9 xsm-16 sm-16">
           <p>trippit has been an idea I had for the longest time. An idea that came from an urge to share my experiences with others and from my love for travel. After getting tired of waiting I finally got the project going with help from my friends. </p>
+
+          <span> <b>What is trippit?</b> </span>
+          <p>trippit is a travel community. A place where travllers can share their adventures and a place where people can expeirence other people's adventures and get inspired.</p>
 
           <p>I took the branding into my own hands with logos, UI/UX and Front-End.</p>
 
@@ -44,8 +44,9 @@
       </div>
 
         <div id ="uiux-bar" class="uiux-bar xlg-9 lg-9 xmd-9 md-9 xsm-16 sm-16">UI/UX</div>
-        <div id = "main-content" class="xlg-9 lg-9 xmd-9 md-9 xsm-16 sm-16">
-          <p>trippit is a project that I thought would just be a side project but as we kept on working on it, our ideas for it kept on growing and so did the work. But that&#39;s the best part, being able to work on something that you&#39;re passionate about.
+        
+      <div id = "main-content" class="xlg-9 lg-9 xmd-9 md-9 xsm-16 sm-16">
+          <p>I thought trippit would just be a side project but as we kept on working on it, our ideas for it kept on growing and so did the work. But that&#39;s the best part, being able to work on something that you&#39;re passionate about.
           </p>  
           <p>
           For all those who don&#39;t know what trippit is, it is a site for travel enthusiasts to share their experiences and for you to get inspired by other people&#39;s experiences. 
@@ -54,7 +55,7 @@
           The essence of what we wanted trippit to be was easy. We wanted it to be easy for people to post things, easy for people to browse the site and easy for people to understand what&#39;s going on. 
           </p>
           <p>
-            To start of the design phase, I planned out what trippit had to include:
+            To start of the design phase, I planned out what trippit embodied:
           </p>
 
           <ul>
@@ -106,8 +107,8 @@
 
           <p>However, there was still something about the design that really bothered me. I felt like there was too much information being presented to us that wasn&#39;t visually appealing at the same time. When someone first visits the page, they&#39;re just hit hard with a ton of information with the amount of text and colours. Also, there was a lot of unused page estate on the left and right. </p>
 
-          <div id ="d2-bar" class="uiux-bar xlg-9 lg-9 xmd-9 md-9 xsm-16 sm-16">Therefore I proposed DESIGN #2</div>
-          <div id = "design-two">
+          <div id ="d2-bar" class="uiux-bar xlg-9 lg-16 xmd-9 md-9 xsm-16 sm-16">Therefore I proposed DESIGN #2</div>
+          <div id = "design-two" class "xlg-9 lg-9">
             <img src ="/images/trippit_design_2.png">
           </div>
 
@@ -126,7 +127,7 @@
 
         <p>Since trippit was built to be a community, the profile page presentation was important. Users profiles had to be simple to read and informative of what the traveler was about.</p>
     
-       <div id = "profile-img">
+       <div id = "profile-img" class "xlg-9 lg-9">
             <img src ="images/profile.png">
        </div>
 
@@ -136,7 +137,7 @@
 
       <p>The trip page is the most important part of the site. It&#39;s what the site revolves around, so I wanted it to have a nice flow and easy to read. A visitor should be able to read the trip with minimal amount of clicks to achieve a good reading experience.</p>
 
-       <div id = "trip-img">
+       <div id = "trip-img" class "xlg-9 lg-9">
             <img src ="images/trip.png">
        </div>
 <p>

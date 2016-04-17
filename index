@@ -12,8 +12,19 @@
         <div class ="vert-menu xlg-4 lg-4 sm-16">
             <div id = "container">
               <div class = "title xlg-12 lg-12 sm-16">
-                  <a href = "/index.html"><img src="images/logo-01.svg"/></a>
+               <span>Scott So</span>
               </div>
+
+              <div class = "links xlg-16 lg-16 sm-16">
+                <ul>
+                  <li><a href = "#uiux-bar">UI/UX</a></li>
+                  <li><a href = "#profile-bar">Profile UI/UX</a></li>
+                  <li><a href = "#trip-bar">Trip Page UI/UX</a></li>
+                
+                </ul>
+              </div>
+            </div>
+
             </div>
         </div>
         <div class ="home-content xlg-16 lg-16">
